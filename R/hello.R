@@ -12,5 +12,6 @@
 #' hello("Me")
 #' }
 hello <- function(x) {
+
   print(paste0("Hello ", x, ", world!"))
 }
