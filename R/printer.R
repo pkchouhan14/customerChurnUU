@@ -11,10 +11,8 @@
 #' @examples
 #' printer(x=rnorm(5), y=rnorm(5))
 printer = function(x,y){
-
   x = data_frame(x=x,y=y)
   print(head(x))
   #print(paste0("x = ", x))
   return(x)
-
 }
