@@ -2,7 +2,7 @@
 #'
 #' @param x
 #'
-#' @return confusion matrix of the model
+#' @return confusion matrix of the model \code{\link{print}}
 #'
 #' @export
 #'

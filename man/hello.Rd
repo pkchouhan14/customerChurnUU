@@ -10,7 +10,7 @@ hello(x)
 \item{x}{}
 }
 \value{
-confusion matrix of the model
+confusion matrix of the model \code{\link{print}}
 }
 \description{
 Customer Churn data analysis
