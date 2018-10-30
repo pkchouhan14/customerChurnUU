@@ -5,11 +5,6 @@ sudo: false
 cache: packages
 warnings_are_errors: false
 
-#os:
-  #- linux
-  #- osx
-  #- windows
-
 r:
   -3.4
   -release
