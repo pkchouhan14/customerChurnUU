@@ -1,5 +1,5 @@
 
-[![jenkins build status](http://localhost:8080/job/customerChurnUU/)](http://localhost:8080/job/customerChurnUU) <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Travis build status](https://travis-ci.com/pkchouhan14/customerChurnUU.svg?branch=master)](https://travis-ci.com/pkchouhan14/customerChurnUU) <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 customerChurnUU
 ===============
