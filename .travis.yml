@@ -5,10 +5,10 @@ sudo: false
 cache: packages
 warnings_are_errors: false
 
-os:
+#os:
   #- linux
   #- osx
-  - windows
+  #- windows
 
 r:
   -3.4
