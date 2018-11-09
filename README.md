@@ -1,5 +1,7 @@
 
-[![Travis build status](https://travis-ci.com/pkchouhan14/customerChurnUU.svg?branch=master)](https://travis-ci.com/pkchouhan14/customerChurnUU) <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Travis build status](https://travis-ci.com/pkchouhan14/customerChurnUU.svg?branch=master)](https://travis-ci.com/pkchouhan14/customerChurnUU)
+
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/pkchouhan14/customerChurnUU?branch=master&svg=true)](https://ci.appveyor.com/project/pkchouhan14/customerChurnUU) <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 customerChurnUU
 ===============
