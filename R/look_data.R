@@ -1,53 +1,31 @@
-#' @title Customer Churn data analysis
+#' @title view the uploaded dataset
 #'
-#' @param x
+#' @param data dataframe to look at
 #'
 #' @return confusion matrix of the model \code{\link{print}}
 #'
 #' @export
 #'
 #' @examples
-#' hello("Akul")
-#' \dontrun{
-#' hello("Me")
-#' }
-library(stats)
-library(caTools)
-library(Amelia)
-library(plyr)
-library(dplyr) # to analyse the data
-library(tidyr)  #to tidy the data
-library(caret)  #for revalue function
-library(tree)  #decision tree
-library(MASS)
-library(randomForest)
-library(ggplot2)
-library(gridExtra)
-library(ROCR)
-library(corrplot)
 
-
-csv = system.file("extdata", "Telco_Customer_Churn.csv", package = "customerChurnUU")
-
-look_data <- function(csv) {
- telecomDataFrame<-sample_read(csv)
+look_data <- function(data) {
 
  #number of columns
- ncol(telecomDataFrame)
+ ncol(data)
 
  #number of rows records
- nrow(telecomDataFrame)
+ nrow(data)
 
  #names of the columns in dataframe
  names(telecomDataFrame)
 
  # print the structure of the dataframe
- print(str(telecomDataFrame))
+ print(str(data))
 
  # print the summary of the dataframe
- summary(telecomDataFrame)
+ summary(data)
 
  #data types - display on few columns to the console not crashing the window
- glimpse(telecomDataFrame)
+ glimpse(data)
 }
 

@@ -2,20 +2,16 @@
 % Please edit documentation in R/sample_read.R
 \name{sample_read}
 \alias{sample_read}
-\title{Read csv duplicate}
+\title{Title Read data file (csv) from directory by the user}
 \usage{
-sample_read(path)
-}
-\arguments{
-\item{path}{path of filename}
+sample_read()
 }
 \value{
-a \code{tibble}
+dataframe
 }
 \description{
-Read csv duplicate
+Title Read data file (csv) from directory by the user
 }
 \examples{
-csv = system.file("extdata", "Telco_Customer_Churn.csv", package = "customerChurnUU")
-sample_read(csv)
+sample_read()
 }

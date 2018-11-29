@@ -1,16 +1,19 @@
-
-#' Read csv duplicate
+#' Title Read data file (csv) from directory by the user
 #'
-#' @param path path of filename
-#'
-#' @return a \code{tibble}
+#' @return dataframe
 #' @export
 #'
-#' @importFrom readr read_csv
 #' @examples
-#' csv = system.file("extdata", "Telco_Customer_Churn.csv", package = "customerChurnUU")
-#' sample_read(csv)
-sample_read = function(path){
-  readr::read_csv(path)
-  #return(telecomDataframe)
+#' sample_read()
+sample_read = function(){
+  dataToWork<-read.csv(file="C:\\Users\\Pushpinder\\BTIIC\\Code\\customerChurnUU\\Data\\git-Customer-Churn.csv")
+
+  #read_data<-function(dir,fl){
+  #choose from pop-up directory window
+  #dataToWork<-read.csv(file.choose(), strip.white = T, stringsAsFactors = F)	# use a windows file explorer to select a file
+  #use direcoturt path dir and file namefl as input to the function
+  #fl.qualified <- paste(dir, fl, sep='\\')
+  #dataToWork <- lapply(fl.qualified, read.csv)
+
+  return(dataToWork);
 }
