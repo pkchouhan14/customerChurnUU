@@ -6,7 +6,7 @@
 #' @examples
 #' sample_read()
 sample_read = function(){
-  dataToWork<-read.csv(file="C:\\Users\\Pushpinder\\BTIIC\\Code\\customerChurnUU\\Data\\git-Customer-Churn.csv")
+  dataToWork<-read.csv(file="C:\\Users\\Pushpinder\\BTIIC\\Code\\customerChurnUU\\data\\git-Customer-Churn.csv")
 
   #read_data<-function(dir,fl){
   #choose from pop-up directory window
