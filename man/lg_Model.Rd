@@ -4,7 +4,7 @@
 \alias{lg_Model}
 \title{Title logistic regression model on the data}
 \usage{
-lg_Model(data, colName, divRatio)
+lg_Model(data, colName)
 }
 \arguments{
 \item{divRatio}{}

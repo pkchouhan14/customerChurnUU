@@ -9,10 +9,10 @@
 #'
 #' @examples
 #' lg_Model(processed_data(sample_read()),churn,75)
-lg_Model<-function(data, colName, divRatio){
+lg_Model<-function(data, colName){
   print(colName)
   dividedData<-divide_data_test_train(data, divRatio)
-  print(dividedData[1])
-  lgModel <- glm(data[colName] ~ .,family=binomial(link="logit"),data=dividedData[1])
+  trainData<-dividedData[1]
+  lgModel <- glm(data[colName] ~ .,family=binomial(link="logit"),data=trainData)
   return(lgModel)
 }

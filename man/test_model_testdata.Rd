@@ -22,5 +22,5 @@ confusion matrix table
 Title test the model with test dataset
 }
 \examples{
-test_model_testdata(data,divRatio,churn,type="response")
+test_model_testdata(data,divRatio,churn,"response")
 }
