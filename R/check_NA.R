@@ -1,4 +1,3 @@
-
 #' Title count NA in a data column
 #'
 #' @param data dataframe
