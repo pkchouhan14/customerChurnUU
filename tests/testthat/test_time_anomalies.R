@@ -18,3 +18,7 @@ test_that("check if x is normal distribution",{
 test_that("check if x has different distribution in 2 datasets",{
   expect_false(compare_col_distribution_2data(processed_data(sample_read()),sample_read(),"MonthlyCharges"))
 })
+
+test_that("check if x has different unique values in 2 datasets",{
+  expect_true(unique_values_column_2data(processed_data(sample_read()),sample_read(),"MonthlyCharges"))
+})
