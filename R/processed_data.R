@@ -35,7 +35,7 @@ processed_data<-function(data){
   data$StreamingTV <- as.factor(data$StreamingTV)
   data$StreamingMovies <- as.factor(data$StreamingMovies)
 
-  data$customerID<-NULL
+  #data$customerID<-NULL
   # check the number of NA rows if it is relatively small in number then ignore those rows from the analysis
   new_data<-omit_na(convert_data_variable(data))
 
