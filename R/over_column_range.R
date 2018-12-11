@@ -13,7 +13,6 @@
 #' Mass=c(4.003,20.18,39.948,83.8,131.293,222,294))
 #' over_column_range(nobleGasses, "Nr", 100)   # reutrns 1
 over_column_range<-function(data, colName, hiVal){
-  #totalInRange<-sum((unlist(data[colName]) > hiVal)) ##same as below
   totalOverRange<-sum((unlist(data[,colName]) >  hiVal))
   return(totalOverRange)
 }
