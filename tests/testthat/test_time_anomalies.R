@@ -22,3 +22,7 @@ test_that("check if x has different distribution in 2 datasets",{
 test_that("check if x has different unique values in 2 datasets",{
   expect_true(unique_values_column_2data(processed_data(sample_read()),sample_read(),"MonthlyCharges"))
 })
+
+test_that("Chi-squared test for significance level alpha >= 0.05",{
+  expect_gte(chisq_test(processed_data(sample_read()),"Churn"),0.05)
+})
