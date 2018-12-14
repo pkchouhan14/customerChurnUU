@@ -15,12 +15,13 @@
 #' Symbol=c("He","Ne","Ae","Kr","Xe","Rn","Og"), Nr=c(2,10,18,36,54,86,118),
 #' Mass=c(4.003,20.18,39.948,83.8,131.293,222,29400))
 #' over_times_column(hnobleGasses, nobleGasses, "Mass")   # reutrns 1
-over_times_column<-function(hdata, data, colName){
+over_times_column<-function(hdata, data, colName, multiple){
 
   #highest value in the column in historic data
-  hiVal<-max(unlist(hdata[,colName]))
+  hiVal<-multiple*(max(unlist(hdata[,colName])))
 
   totalOverRange<-over_column_range(data, colName, hiVal)
 
   return(totalOverRange)
+
 }
